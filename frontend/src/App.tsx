@@ -6,7 +6,7 @@ import appConfig from './configs/app.config'
 import './locales'
 
 if (appConfig.enableMock) {
-    import('./mock')
+    
 }
 
 function App() {
